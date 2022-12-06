@@ -1,0 +1,6 @@
+---
+gitlab:
+  - address: gitlab.tinkoff.ru:443
+    weight: 10
+    meta:
+      foo: bar
