@@ -11,8 +11,7 @@ val circeDeps = Seq(
   libraryDependencies ++= Seq("io.circe" %% "circe-yaml" % "0.14.2", "io.circe" %% "circe-generic" % "0.14.2")
 )
 
-lazy val root = (project in file("."))
-  .aggregate(simple, async, fileExample)
+lazy val root = project in file(".")
 
 lazy val simple = (project in file("simple"))
   .settings(commonSettings)
