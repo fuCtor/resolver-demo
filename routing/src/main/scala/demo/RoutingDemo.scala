@@ -90,8 +90,7 @@ object RoutingDemo extends com.twitter.app.App {
 
   premain {
     Dtab.base = Dtab.read("""
-                            |/s## => /$/demo.Namer/simple;
-                            |/s# => /s##;
+                            |/s# => /$/demo.Namer/simple;
                             |/s  => /s#;
                             |""".stripMargin)
   }
