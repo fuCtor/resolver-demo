@@ -48,6 +48,7 @@ User --> (ServiceA)
 (ServiceA) -> (ServiceC)
 @enduml
 ```
+![](https://www.plantuml.com/plantuml/svg/SoWkIImgAStDuGejJYrIqDMrKz08JYqgoqnETTJaGZ1HP9mGCaweCiueUb0b75BpKe0M0G00)
 
 Настройки Dtab.base:
 ```
@@ -67,6 +68,8 @@ User --> (ServiceA)
 (Proxy) --> (ServiceC)
 @enduml
 ```
+
+![](https://www.plantuml.com/plantuml/svg/SoWkIImgAStDuGejJYrIqDMrKz08JYqgoqnETTJaGZ1HP9mGCavGcO2Y_8fAL0q8KIu80zKGPqqkXzIy5A3L0000)
 
 Настройки Dtab.local:
 
